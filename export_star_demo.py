@@ -51,6 +51,7 @@ def export_to_onnx(model, dummy_input, onnx_path):
         export_params=True,
         opset_version=18,
         do_constant_folding=True,
+        external_data=False,
         input_names=['input_image'],
         output_names=['landmarks'],
         dynamic_axes={'input_image': {0: 'batch_size'}, 'landmarks': {0: 'batch_size'}}
