@@ -1,2 +1,3 @@
 weights/*.pkl
-weights/*.bin
+weights/*.binSTAR_98_landmarks.onnx
+STAR_98_landmarks.onnx.data
